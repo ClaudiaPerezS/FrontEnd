@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Deli</title>
+</head>
+<body>
+    <h1>
+        <table> 
+            <tr>
+                <td><img src="Deli Cake -logo.png"></td> 
+                <td>Para paladares exquisitos</td> 
+            </tr> 
+        </table>
+    </h1>
+
+    <h3>Ingresa tus datos</h3>
+    <form action="" id="formPedido" method="post"></form>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" maxlength="50" size="50"><br><br>
+        <label for="telef">Teléfono</label><br>
+        <input type="tel" id="telef" name="telef" maxlength="10"><br><br>
+        <label for="correo">Correo Electrónico</label><br>
+        <input type="email" id="correo" name="correo" maxlength="35" size="35"><br><br>
+        <label for="descr">Observaciones</label><br> 
+        <textarea name="descr" cols="40" rows="5"></textarea><br><br> 
+        <label for="tamanio">Tamaño</label>
+        <select id="tamanio" name="tamanio">
+            <option value="10p">10 personas</option>
+            <option value="20p">20 personas</option>
+            <option value="35p">35 personas</option> 
+        </select>
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" name="fecha"><br><br>
+        <table>
+            <td>
+                <label>Pan</label><br>
+                <input type="checkbox" id="pan1" name="pan1" value="Chocolate">
+                <label for="pan1">Chocolate</label><br>
+                <input type="checkbox" id="pan2" name="pan2" value="Vainilla">
+                <label for="pan2">Vainilla</label><br>
+                <input type="checkbox" id="pan3" name="pan3" value="Red Velvet">
+                <label for="pan3">Red Velvet</label><br>
+                <input type="checkbox" id="pan4" name="pan4" value="Zanahoria">
+                <label for="pan4">Zanahoria</label>
+            </td>
+            <td>
+                <label>Relleno</label><br>
+                <input type="radio" id="relleno1" name="rellenos" value="Crema Pastelera">
+                <label for="relleno1">Crema Pastelera</label><br>
+                <input type="radio" id="relleno2" name="rellenos" value="Queso Crema">
+                <label for="relleno2">Queso Crema</label><br>
+                <input type="radio" id="relleno3" name="rellenos" value="Mermelada de Fresa">
+                <label for="relleno3">Mermelada de Fresa</label><br>
+                <input type="radio" id="relleno4" name="rellenos" value="Crema de Avellanas">
+                <label for="relleno4">Crema de Avellanas</label>                
+            </td>
+            <td>
+                <label>Topping</label><br>
+                <input type="checkbox" id="top1" name="top1" value="Arcoiris">
+                <label for="top1">Arcoiris</label><br>
+                <input type="checkbox" id="top2" name="top2" value="Frutos">
+                <label for="top2">Frutos</label><br>
+                <input type="checkbox" id="top3" name="top3" value="Caramelo">
+                <label for="top3">Caramelo</label><br>
+                <input type="checkbox" id="top4" name="top4" value="Triple Chocolate">
+                <label for="top4">Triple Chocolate</label><br>
+                <input type="checkbox" id="top5" name="top5" value="Frutos de Temporada">
+                <label for="top5">Frutos de Temporada</label><br>
+                <input type="checkbox" id="top6" name="top6" value="Cherry">
+                <label for="top6">Cherry</label><br>
+                <input type="checkbox" id="top7" name="top7" value="Unicornio">
+                <label for="top7">Unicornio</label><br>
+                <input type="checkbox" id="top8" name="top8" value="Sirena">
+                <label for="top8">Sirena</label>                 
+            </td>
+        </table><br><br> 
+        <input type="submit" value="Ordenar">
+        <input type="reset">
+    </form>
+</body>
+</html>
